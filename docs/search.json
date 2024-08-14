@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Lyrvall, J., Bakk, Z., Oser, J., & Di Mari, R. (2024). Bias-Adjusted Three-Step Multilevel Latent Class Modeling with Covariates. Structural Equation Modeling: A Multidisciplinary Journal, 1-12.\nCellini, R., Cuccia, T., & Lyrvall, J. (2023). On the price dynamics of non-fungible tokens: The ‘Bored Apes’ case. Plos One, 18(11), e0287881."
+  },
+  {
+    "objectID": "research.html#peer-reviewed-articles",
+    "href": "research.html#peer-reviewed-articles",
+    "title": "Research",
+    "section": "",
+    "text": "Lyrvall, J., Bakk, Z., Oser, J., & Di Mari, R. (2024). Bias-Adjusted Three-Step Multilevel Latent Class Modeling with Covariates. Structural Equation Modeling: A Multidisciplinary Journal, 1-12.\nCellini, R., Cuccia, T., & Lyrvall, J. (2023). On the price dynamics of non-fungible tokens: The ‘Bored Apes’ case. Plos One, 18(11), e0287881."
+  },
+  {
+    "objectID": "research.html#pre-prints",
+    "href": "research.html#pre-prints",
+    "title": "Research",
+    "section": "Pre-prints",
+    "text": "Pre-prints\nLyrvall, J., Di Mari, R., Bakk, Z., Oser, J., & Kuha, J. (2023). multilevLCA: An R package for single-level and multilevel latent class analysis with covariates. arXiv preprint arXiv:2305.07276."
+  },
+  {
+    "objectID": "research.html#software",
+    "href": "research.html#software",
+    "title": "Research",
+    "section": "Software",
+    "text": "Software\nDi Mari, R. & Lyrvall, J. (2024). multilevLCA: Estimates and Plots Single-Level and Multilevel Latent Class Models. R package version 1.5.1."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Johan Lyrvall",
+    "section": "",
+    "text": "I am a PhD candidate in the Department of Economics and Business at the University of Catania in Italy, where I work on latent variable modeling methodological statistics.\nI am also working with the ERC grant Participation and Representation in the Digital Age as lead research team member for latent class analysis methodological innovations.\nMy research agenda focuses on multilevel models, step-wise estimation approaches, and measurement non-equivalence modeling."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "PhD researcher | University of Catania, Department of Economics and Business, Italy | November 2021 - Present\nLead research team member | Participation & Representation in the Digital Age (ERC grant), Israel | September 2023 - Present\nVisiting PhD researcher | London School of Economics, Department of Methodology, United Kingdom | February 2024 - July 2024\nVisiting PhD researcher | Leiden University, Department of Methodology and Statistics, Netherlands | August 2023 - January 2024\nResearch assistant | KU Leuven, Department of Economics, Belgium | June 2020 - August 2020, October 2020 - June 2021"
+  },
+  {
+    "objectID": "cv.html#academic-positions-and-affiliations",
+    "href": "cv.html#academic-positions-and-affiliations",
+    "title": "CV",
+    "section": "",
+    "text": "PhD researcher | University of Catania, Department of Economics and Business, Italy | November 2021 - Present\nLead research team member | Participation & Representation in the Digital Age (ERC grant), Israel | September 2023 - Present\nVisiting PhD researcher | London School of Economics, Department of Methodology, United Kingdom | February 2024 - July 2024\nVisiting PhD researcher | Leiden University, Department of Methodology and Statistics, Netherlands | August 2023 - January 2024\nResearch assistant | KU Leuven, Department of Economics, Belgium | June 2020 - August 2020, October 2020 - June 2021"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\nMSc in Economics | KU Leuven, Belgium | 2020\nBSc in Economics | Lund University, Sweden | 2019"
+  },
+  {
+    "objectID": "cv.html#industry-experience",
+    "href": "cv.html#industry-experience",
+    "title": "CV",
+    "section": "Industry experience",
+    "text": "Industry experience\nData analyst | Cartel Damage Claims, Belgium | February 2021 - September 2021"
+  },
+  {
+    "objectID": "cv.html#teaching-activities",
+    "href": "cv.html#teaching-activities",
+    "title": "CV",
+    "section": "Teaching activities",
+    "text": "Teaching activities\nGuest lecturer | Latent Variable Models, MSc course, Leiden University | December 2023\nGuest lecturer | Psychometrics and Structural Equation Modeling, MSc course, Leiden University | December 2023"
+  },
+  {
+    "objectID": "multilevlca.html",
+    "href": "multilevlca.html",
+    "title": "multilevLCA",
+    "section": "",
+    "text": "multilevLCA is an R package for single-level and multilevel latent class analysis with covariates. It was developed by Roberto Di Mari and Johan Lyrvall, with contributions from Zsuzsa Bakk, Jennifer Oser and Jouni Kuha.\nThe package efficiently implements based on C++ integrated routines the two-step, two-stage, and one-step estimation approaches for latent class models with covariates. It performs semi-automatic sequential and simultaneous model selection, and visualizes the output in text and figures in a user-friendly way."
+  },
+  {
+    "objectID": "multilevlca.html#documentation",
+    "href": "multilevlca.html#documentation",
+    "title": "multilevLCA",
+    "section": "Documentation",
+    "text": "Documentation\nCRAN\narXiv"
+  },
+  {
+    "objectID": "multilevlca.html#bias-adjusted-three-step-modeling",
+    "href": "multilevlca.html#bias-adjusted-three-step-modeling",
+    "title": "multilevLCA",
+    "section": "Bias-adjusted three-step modeling",
+    "text": "Bias-adjusted three-step modeling\nBias-adjusted three-step analysis of single-level and multilevel latent class models can be implemented in multilevLCA by means of the functions in this downloadable .R file.\nThese functions replace the code used in Bias-Adjusted Three-Step Multilevel Latent Class Modeling with Covariates (Lyrvall et al., 2024), which is outdated after package updates."
+  }
+]
