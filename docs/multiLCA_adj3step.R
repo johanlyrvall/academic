@@ -20,10 +20,10 @@ multiLCA_adj3step = function(data, Y, iT, id_high, iM, Z, Zh = NULL,
     setTxtProgressBar(pb,1)
     close(pb)
   }
-  multilevLCA:::check_inputs1(data,Y,iT,id_high,iM,Z,Zh)
+  multilevLCA:::check_inputs1(data,Y,iT,id_high,iM,Z,Zh,NULL)
   nrow_data = nrow(data)
   data      = data[complete.cases(data[,Y]),c(Y,id_high,Z,Zh)]
-  approach  = multilevLCA:::check_inputs2(data,Y,iT,id_high,iM,Z,Zh)
+  approach  = multilevLCA:::check_inputs2(data,Y,iT,id_high,iM,Z,Zh,NULL)
   if(approach != "direct"){
     stop("This function does not perform model selection",call.=FALSE)
   }
@@ -181,6 +181,24 @@ multiLCA_adj3step = function(data, Y, iT, id_high, iM, Z, Zh = NULL,
     }
   }
   step3$call = match.call()
+  if(nrow(data)==nrow_data){
+    step3$missing_values = as.matrix("None")
+  } else{
+    step3$missing_values = as.matrix("Row-wise deletion")
+  }
+  if(is.null(Zh)){
+    step3$sample_size = as.matrix(c(nrow(data),nrow(na.omit(mZ))))
+    rownames(step3$sample_size) = c("Measurement model:","Structural model:")
+    colnames(step3$sample_size) = ""
+  } else if(!is.null(id_high)&!is.null(Zh)){
+    step3$sample_size = as.matrix(c(nrow(data),nrow(mZ),nrow(mZh)))
+    rownames(step3$sample_size) = c("Measurement model:",
+                                  "Lower-level structural model:",
+                                  "Higher-level structural model:")
+    colnames(step3$sample_size) = ""
+  }
+  rownames(step3$missing_values) = colnames(step3$missing_values) = ""
+  step3$estimator = as.matrix("Bias-adjusted three-step")
   class(step3) = "multiLCA"
   
   return(list(step1=step1,step3=step3))
